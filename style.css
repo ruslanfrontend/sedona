@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background-color: #f2f2f2;
@@ -24,6 +28,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
+
 /*header end*/
 
 .welcome {
@@ -50,6 +55,7 @@ body {
     background-color: #fff;
     display: flex;
 }
+
 /*services end*/
 
 .devil-bridge {
@@ -75,10 +81,35 @@ body {
     background-repeat: no-repeat;
 }
 
+/*filter start*/
+.filters {
+    height: 210px;
+    background-color: #628cb4;
+    background-image: url(images/filters-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+/*filter end*/
+
+/*sortable start*/
+.sortable {
+    background-color: #fff;
+    height: 78px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/*sortable end*/
+
+/*footer start*/
 .page-footer {
     background-color: rgba(255, 255, 255, .9);
     height: 119px;
     margin-top: -119px;
 }
 
+.page-footer-inner {
+    margin-top: 0;
+}
 
+/*footer end*/
